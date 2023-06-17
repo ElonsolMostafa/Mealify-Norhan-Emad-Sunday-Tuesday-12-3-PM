@@ -1,0 +1,95 @@
+
+@media (max-width: 1399.98px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 1199.98px) {
+    /* footer */
+    #footer .container .foot-content .section-1,
+    #footer .container .foot-content .section-3{
+    flex-basis: 43%;
+    }
+    #footer .container .foot-content .section-2{
+        flex-basis: 43%;
+    }
+}
+@media (max-width: 991.98px) {
+    /* navbar */
+    #navbar .container .input-nav i{
+        display: block;
+        position: relative;
+    }
+    #navbar .container .links{
+        display: none;
+    }
+    /* home */
+    #home .container .content{
+        flex-basis: 80%;
+    }
+    /* chefs */
+    #chefs .container .cards .card{
+        flex-basis: 49%;
+    }
+    /* footer */
+    #footer .container .foot-content .section-2 .links{
+        column-gap: 6.25rem;
+    }
+    #footer .container .foot-content .section-2 .links ul li{
+        width: 150%;
+    }
+}
+@media (max-width: 767.98px) {
+    /* home */
+    #home .container .home-layer{
+        flex-wrap: wrap;
+    }
+    #home .container .image{
+        flex-basis: 80%;
+        margin: auto;
+    }
+    #home .container .content{
+        flex-basis: 80%;
+        order: 2;
+        text-align: center;
+        margin: auto;
+    }
+    #home .container .content .buttons{
+        width: 70%;
+        margin: auto;
+    }
+    #home .container .content h2{
+        width: 100%;
+    }
+    /* chefs */
+    #chefs .container .cards .card{
+        flex-basis:98%;
+    }
+    /* gallery */
+    #gallery .container .images .part{
+        flex-basis: 98%;
+    }
+    /* contact */
+    #contact .container .info .info-layer .col{
+        flex-basis: 99%;
+    }
+    #contact .container .form .form-top .input{
+        flex-basis: 100%;
+    }
+    /* footer */
+    #footer .container .foot-content .section-1,
+    #footer .container .foot-content .section-3{
+    flex-basis: 100%;
+    margin: auto;
+    }
+    #footer .container .foot-content .section-2{
+        flex-basis: 100%;
+        margin: auto;
+    }
+}
+@media (max-width: 575.98px) {
+    :root{
+        font-size: 12px;
+    }
+} 
+
